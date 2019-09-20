@@ -1,0 +1,32 @@
+.notesContent {
+  padding-top: 1em !important;
+  margin: 0 !important;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+}
+
+.pinnedNotesHeader {
+  width: 100%;
+}
+
+.notesPage {
+  padding-top: 4em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(236, 236, 236);
+}
+
+.megacard {
+  transition: all 0.4s ease-in-out;
+}
+
+.megacard:hover {
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+}
